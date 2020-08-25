@@ -1,0 +1,6 @@
+.layout-wrap {
+  @apply flex-grow bg-orange-100;
+}
+.title {
+  @apply text-4xl text-center font-bold;
+}

@@ -1,0 +1,19 @@
+.header {
+  @apply flex justify-between bg-teal-600 text-white;
+  min-height: 60px;
+}
+
+/* .nav-bar {
+
+}
+
+.brand {
+  @apply 
+} */
+
+.nav-link {
+  @apply inline-block py-1 px-5 text-xl text-gray-200;
+  &:hover {
+    @apply text-white;
+  }
+}
