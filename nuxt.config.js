@@ -73,4 +73,7 @@ export default {
     color: "#5275e0",
     height: "5px"
   },
+  generate: {
+    fallback: true
+  },
 };
