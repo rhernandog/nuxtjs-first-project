@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "npm run lint:js",
-    "server": "json-server --watch assets/db.json --port 4000"
+    "server": "json-server --watch db.json --port 4000"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.0",
