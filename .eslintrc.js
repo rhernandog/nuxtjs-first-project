@@ -18,5 +18,6 @@ module.exports = {
     semi: ["error", "always"],
     quotes: [0, "double"],
     "comma-dangle": "off",
+    "space-before-function-paren": ["error", { anonymous: "always", named: "never", asyncArrow: "always" }],
   }
 };

@@ -1,9 +1,17 @@
 <template>
   <div class="layout-wrap">
-    <h1 class="title">Hello World</h1>
+    <h1 class="title">
+      Hello World
+    </h1>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: "Home",
+    };
+  },
+};
 </script>

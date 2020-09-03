@@ -15,6 +15,18 @@ export default {
     Header,
     Footer,
   },
+  head() {
+    return {
+      titleTemplate: "%s - Real World Events",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Simple app for listing a series of events."
+        }
+      ],
+    };
+  },
 };
 </script>
 
